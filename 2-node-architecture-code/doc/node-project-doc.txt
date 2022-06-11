@@ -1,0 +1,32 @@
+Create Node Project
+
+Creating New Folder 
+Open GIT Bash - Path should be correct to the created new folder
+
+npm init (or) npm init -y
+project name : should be in lowercase and instead of space hyphen 
+
+npm install <Package Name>
+
+for global installation 
+npm install -g <Package Name>
+
+for devDepencency installation
+npm install -D <Package Name>
+
+
+eg. npm install react, npm install moment
+shortcut for npm install is npm i
+
+open package.json 
+script object modifiy
+eg."script" :{
+   "dev" : "node index.js",
+   "build" : "node index.js",
+   "start" : "node index.js"
+}
+
+you can delete node_modules, package-lock.json -
+npm i to retain the dependencies
+
+

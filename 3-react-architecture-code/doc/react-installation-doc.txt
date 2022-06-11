@@ -1,0 +1,37 @@
+Creating React App
+
+First Apporach: Using NPX for one time react project creation 
+
+npx create-react-app <Project Name>
+eg. 
+npx create-react-app simple-app
+npx create-react-app quizapp
+npx create-react-app ecom
+
+all the following things will be done already
+
+1. Project Folder will automatically created
+2. all the react dependency will installed automatically 
+3. script also added automatically 
+4. basic welcome react app will be created
+
+
+First Apporach: Using NPM for multiple time time react project creation
+
+npm install -g creact-react-app
+create-react-app <Project Name>
+eg.
+create-react-app simple-app
+create-react-app quizapp
+create-react-app ecom
+
+all the following things will be done already
+
+1. Project Folder will automatically created
+2. all the react dependency will installed automatically 
+3. script also added automatically 
+4. basic welcome react app will be created
+
+
+
+
