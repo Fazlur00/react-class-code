@@ -14,14 +14,17 @@ class RTO {
 }
 
 
-class Car extends RTO{
+class Car {
+    
    vehicleType ="Car"
    startCar(){
         console.log("Car is Started");
     }
 }
 
-var rto = new RTO();
+var honda = new Car();
+
+honda.startCar();
 // console.log(rto.vehicleType);
 
 
